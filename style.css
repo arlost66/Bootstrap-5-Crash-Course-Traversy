@@ -1,0 +1,12 @@
+body::before{  /* Adds space on the top for the nav bar that is fixed*/
+    display: block;
+    content: '';
+    height: 60px;
+}
+
+@media(min-width: 768px)
+{
+    .news-input{
+        width: 50%;
+    }
+}
